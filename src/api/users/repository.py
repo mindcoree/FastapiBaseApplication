@@ -4,7 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from src.api.users.schemas import UserCraete
 
-from src.core.user import User
+from src.api.users.models import User
 
 
 class UserRepository:
