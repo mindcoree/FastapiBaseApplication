@@ -1,10 +1,9 @@
-from fastapi import Depends, FastAPI
 from typing import Sequence
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
-from src.api.users.schemas import UserCraete
+from .schemas import UserCraete
 
-from src.api.users.models import User
+from .models import User
 
 
 class UserRepository:

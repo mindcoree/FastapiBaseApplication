@@ -1,6 +1,6 @@
 from sqlalchemy import UniqueConstraint
 
-from src.core.base import Base
+from core.base import Base
 from sqlalchemy.orm import Mapped, mapped_column
 
 
